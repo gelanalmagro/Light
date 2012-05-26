@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0429751550BA7E0038B468 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0429741550BA7E0038B468 /* UIKit.framework */; };
+		DD0429771550BA7E0038B468 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0429761550BA7E0038B468 /* Foundation.framework */; };
+		DD0429791550BA7E0038B468 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0429781550BA7E0038B468 /* CoreGraphics.framework */; };
+		DD04297F1550BA7E0038B468 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD04297D1550BA7E0038B468 /* InfoPlist.strings */; };
+		DD0429811550BA7E0038B468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0429801550BA7E0038B468 /* main.m */; };
+		DD0429851550BA7E0038B468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0429841550BA7E0038B468 /* AppDelegate.m */; };
+		DD0429881550BA7E0038B468 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0429861550BA7E0038B468 /* MainStoryboard_iPhone.storyboard */; };
+		DD04298B1550BA7E0038B468 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0429891550BA7E0038B468 /* MainStoryboard_iPad.storyboard */; };
+		DD04298E1550BA7E0038B468 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD04298D1550BA7E0038B468 /* ViewController.m */; };
+		DD0429CB1550BAE10038B468 /* clClockThin@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429971550BAE10038B468 /* clClockThin@2x~ipad.png */; };
+		DD0429CC1550BAE10038B468 /* clLongArmThin@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429981550BAE10038B468 /* clLongArmThin@2x~ipad.png */; };
+		DD0429CD1550BAE10038B468 /* clSecondThin@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429991550BAE10038B468 /* clSecondThin@2x~ipad.png */; };
+		DD0429CE1550BAE10038B468 /* clShortArmThin@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD04299A1550BAE10038B468 /* clShortArmThin@2x~ipad.png */; };
+		DD0429CF1550BAE20038B468 /* clClockThin~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD04299B1550BAE10038B468 /* clClockThin~ipad.png */; };
+		DD0429D01550BAE20038B468 /* clLongArmThin~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD04299C1550BAE10038B468 /* clLongArmThin~ipad.png */; };
+		DD0429D11550BAE20038B468 /* clSecondThin~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD04299D1550BAE10038B468 /* clSecondThin~ipad.png */; };
+		DD0429D21550BAE20038B468 /* clShortArmThin~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD04299E1550BAE10038B468 /* clShortArmThin~ipad.png */; };
+		DD0429D31550BAE20038B468 /* clClockThin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD04299F1550BAE10038B468 /* clClockThin@2x.png */; };
+		DD0429D41550BAE20038B468 /* clLongArmThin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429A01550BAE10038B468 /* clLongArmThin@2x.png */; };
+		DD0429D51550BAE20038B468 /* clSecondThin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429A11550BAE10038B468 /* clSecondThin@2x.png */; };
+		DD0429D61550BAE20038B468 /* clShortArmThin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429A21550BAE10038B468 /* clShortArmThin@2x.png */; };
+		DD0429D71550BAE20038B468 /* clSecondThin.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429A31550BAE10038B468 /* clSecondThin.png */; };
+		DD0429D81550BAE20038B468 /* clShortArmThin.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429A41550BAE10038B468 /* clShortArmThin.png */; };
+		DD0429D91550BAE20038B468 /* clClockThin.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429A51550BAE10038B468 /* clClockThin.png */; };
+		DD0429DA1550BAE20038B468 /* clLongArmThin.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429A61550BAE10038B468 /* clLongArmThin.png */; };
+		DD0429DB1550BAE20038B468 /* clGear@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429A71550BAE10038B468 /* clGear@2x~ipad.png */; };
+		DD0429DC1550BAE20038B468 /* clGear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429A81550BAE10038B468 /* clGear@2x.png */; };
+		DD0429DD1550BAE20038B468 /* clClock~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429A91550BAE10038B468 /* clClock~ipad.png */; };
+		DD0429DE1550BAE20038B468 /* clGear.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429AA1550BAE10038B468 /* clGear.png */; };
+		DD0429DF1550BAE20038B468 /* clClock@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429AB1550BAE10038B468 /* clClock@2x~ipad.png */; };
+		DD0429E01550BAE20038B468 /* clClock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429AC1550BAE10038B468 /* clClock@2x.png */; };
+		DD0429E11550BAE20038B468 /* clAlarm.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429AD1550BAE10038B468 /* clAlarm.png */; };
+		DD0429E21550BAE20038B468 /* clAlarm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429AE1550BAE10038B468 /* clAlarm@2x.png */; };
+		DD0429E31550BAE20038B468 /* clAlarm@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429AF1550BAE10038B468 /* clAlarm@2x~ipad.png */; };
+		DD0429E41550BAE20038B468 /* clAlarm~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429B01550BAE10038B468 /* clAlarm~ipad.png */; };
+		DD0429E51550BAE20038B468 /* clChangeBack.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429B11550BAE10038B468 /* clChangeBack.png */; };
+		DD0429E61550BAE20038B468 /* clChangeBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429B21550BAE10038B468 /* clChangeBack@2x.png */; };
+		DD0429E71550BAE20038B468 /* clChangeBack@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429B31550BAE10038B468 /* clChangeBack@2x~ipad.png */; };
+		DD0429E81550BAE20038B468 /* clChangeBack~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429B41550BAE10038B468 /* clChangeBack~ipad.png */; };
+		DD0429E91550BAE20038B468 /* clClock_lone.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429B51550BAE10038B468 /* clClock_lone.png */; };
+		DD0429EA1550BAE20038B468 /* clClock_lone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429B61550BAE10038B468 /* clClock_lone@2x.png */; };
+		DD0429EB1550BAE20038B468 /* clClock.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429B71550BAE10038B468 /* clClock.png */; };
+		DD0429EC1550BAE20038B468 /* clClock_lone~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429B81550BAE10038B468 /* clClock_lone~ipad.png */; };
+		DD0429ED1550BAE20038B468 /* clClock_lone@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429B91550BAE10038B468 /* clClock_lone@2x~ipad.png */; };
+		DD0429EE1550BAE20038B468 /* clGear~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429BA1550BAE10038B468 /* clGear~ipad.png */; };
+		DD0429EF1550BAE20038B468 /* clShortArm~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429BB1550BAE10038B468 /* clShortArm~ipad.png */; };
+		DD0429F01550BAE20038B468 /* clShortArm@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429BC1550BAE10038B468 /* clShortArm@2x~ipad.png */; };
+		DD0429F11550BAE20038B468 /* clShortArm.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429BD1550BAE10038B468 /* clShortArm.png */; };
+		DD0429F21550BAE20038B468 /* clShortArm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429BE1550BAE10038B468 /* clShortArm@2x.png */; };
+		DD0429F31550BAE20038B468 /* clSecond~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429BF1550BAE10038B468 /* clSecond~ipad.png */; };
+		DD0429F41550BAE20038B468 /* clSecond@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429C01550BAE10038B468 /* clSecond@2x.png */; };
+		DD0429F51550BAE20038B468 /* clSecond@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429C11550BAE10038B468 /* clSecond@2x~ipad.png */; };
+		DD0429F61550BAE20038B468 /* clLongArm~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429C21550BAE10038B468 /* clLongArm~ipad.png */; };
+		DD0429F71550BAE20038B468 /* clSecond.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429C31550BAE10038B468 /* clSecond.png */; };
+		DD0429F81550BAE20038B468 /* clLongArm@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429C41550BAE10038B468 /* clLongArm@2x~ipad.png */; };
+		DD0429F91550BAE20038B468 /* clLongArm.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429C51550BAE10038B468 /* clLongArm.png */; };
+		DD0429FA1550BAE20038B468 /* clLongArm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429C61550BAE10038B468 /* clLongArm@2x.png */; };
+		DD0429FB1550BAE20038B468 /* clLightDark@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429C71550BAE10038B468 /* clLightDark@2x~ipad.png */; };
+		DD0429FC1550BAE20038B468 /* clLightDark~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429C81550BAE10038B468 /* clLightDark~ipad.png */; };
+		DD0429FD1550BAE20038B468 /* clLightDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429C91550BAE10038B468 /* clLightDark@2x.png */; };
+		DD0429FE1550BAE20038B468 /* clLightDark.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0429CA1550BAE10038B468 /* clLightDark.png */; };
+		DD042A021550BCE30038B468 /* ClockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DD042A011550BCE30038B468 /* ClockVC.m */; };
+		DDCB40301550C164000105C1 /* ImageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB402F1550C164000105C1 /* ImageControl.m */; };
+		DDCB40341550C174000105C1 /* ClockControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB40331550C174000105C1 /* ClockControl.m */; };
+		DDCB40381550CC3A000105C1 /* optionsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB40371550CC3A000105C1 /* optionsVC.m */; };
+		DDCB403B1550CC4C000105C1 /* BacgoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB403A1550CC4C000105C1 /* BacgoundVC.m */; };
+		DDCB403E1550CC64000105C1 /* AlarmVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB403D1550CC64000105C1 /* AlarmVC.m */; };
+		DDCB40411550CC7C000105C1 /* ClockColorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB40401550CC7C000105C1 /* ClockColorVC.m */; };
+		DDCB4044155149ED000105C1 /* MasterClockManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCB4043155149ED000105C1 /* MasterClockManager.m */; };
+		DDCB404F155235C3000105C1 /* back_07.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCB4049155235C3000105C1 /* back_07.png */; };
+		DDCB4050155235C3000105C1 /* back_06.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCB404A155235C3000105C1 /* back_06.png */; };
+		DDCB4051155235C3000105C1 /* back_05.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCB404B155235C3000105C1 /* back_05.png */; };
+		DDCB4052155235C3000105C1 /* back_04.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCB404C155235C3000105C1 /* back_04.png */; };
+		DDCB4053155235C3000105C1 /* back_03.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCB404D155235C3000105C1 /* back_03.png */; };
+		DDCB4054155235C3000105C1 /* back_02.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCB404E155235C3000105C1 /* back_02.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD0429701550BA7E0038B468 /* Morning Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Morning Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0429741550BA7E0038B468 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD0429761550BA7E0038B468 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD0429781550BA7E0038B468 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD04297C1550BA7E0038B468 /* Morning Light-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Morning Light-Info.plist"; sourceTree = "<group>"; };
+		DD04297E1550BA7E0038B468 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD0429801550BA7E0038B468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD0429821550BA7E0038B468 /* Morning Light-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Morning Light-Prefix.pch"; sourceTree = "<group>"; };
+		DD0429831550BA7E0038B468 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD0429841550BA7E0038B468 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD0429871550BA7E0038B468 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DD04298A1550BA7E0038B468 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DD04298C1550BA7E0038B468 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD04298D1550BA7E0038B468 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD0429971550BAE10038B468 /* clClockThin@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clClockThin@2x~ipad.png"; sourceTree = "<group>"; };
+		DD0429981550BAE10038B468 /* clLongArmThin@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clLongArmThin@2x~ipad.png"; sourceTree = "<group>"; };
+		DD0429991550BAE10038B468 /* clSecondThin@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clSecondThin@2x~ipad.png"; sourceTree = "<group>"; };
+		DD04299A1550BAE10038B468 /* clShortArmThin@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clShortArmThin@2x~ipad.png"; sourceTree = "<group>"; };
+		DD04299B1550BAE10038B468 /* clClockThin~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clClockThin~ipad.png"; sourceTree = "<group>"; };
+		DD04299C1550BAE10038B468 /* clLongArmThin~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clLongArmThin~ipad.png"; sourceTree = "<group>"; };
+		DD04299D1550BAE10038B468 /* clSecondThin~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clSecondThin~ipad.png"; sourceTree = "<group>"; };
+		DD04299E1550BAE10038B468 /* clShortArmThin~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clShortArmThin~ipad.png"; sourceTree = "<group>"; };
+		DD04299F1550BAE10038B468 /* clClockThin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clClockThin@2x.png"; sourceTree = "<group>"; };
+		DD0429A01550BAE10038B468 /* clLongArmThin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clLongArmThin@2x.png"; sourceTree = "<group>"; };
+		DD0429A11550BAE10038B468 /* clSecondThin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clSecondThin@2x.png"; sourceTree = "<group>"; };
+		DD0429A21550BAE10038B468 /* clShortArmThin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clShortArmThin@2x.png"; sourceTree = "<group>"; };
+		DD0429A31550BAE10038B468 /* clSecondThin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clSecondThin.png; sourceTree = "<group>"; };
+		DD0429A41550BAE10038B468 /* clShortArmThin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clShortArmThin.png; sourceTree = "<group>"; };
+		DD0429A51550BAE10038B468 /* clClockThin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clClockThin.png; sourceTree = "<group>"; };
+		DD0429A61550BAE10038B468 /* clLongArmThin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clLongArmThin.png; sourceTree = "<group>"; };
+		DD0429A71550BAE10038B468 /* clGear@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clGear@2x~ipad.png"; sourceTree = "<group>"; };
+		DD0429A81550BAE10038B468 /* clGear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clGear@2x.png"; sourceTree = "<group>"; };
+		DD0429A91550BAE10038B468 /* clClock~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clClock~ipad.png"; sourceTree = "<group>"; };
+		DD0429AA1550BAE10038B468 /* clGear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clGear.png; sourceTree = "<group>"; };
+		DD0429AB1550BAE10038B468 /* clClock@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clClock@2x~ipad.png"; sourceTree = "<group>"; };
+		DD0429AC1550BAE10038B468 /* clClock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clClock@2x.png"; sourceTree = "<group>"; };
+		DD0429AD1550BAE10038B468 /* clAlarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clAlarm.png; sourceTree = "<group>"; };
+		DD0429AE1550BAE10038B468 /* clAlarm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clAlarm@2x.png"; sourceTree = "<group>"; };
+		DD0429AF1550BAE10038B468 /* clAlarm@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clAlarm@2x~ipad.png"; sourceTree = "<group>"; };
+		DD0429B01550BAE10038B468 /* clAlarm~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clAlarm~ipad.png"; sourceTree = "<group>"; };
+		DD0429B11550BAE10038B468 /* clChangeBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clChangeBack.png; sourceTree = "<group>"; };
+		DD0429B21550BAE10038B468 /* clChangeBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clChangeBack@2x.png"; sourceTree = "<group>"; };
+		DD0429B31550BAE10038B468 /* clChangeBack@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clChangeBack@2x~ipad.png"; sourceTree = "<group>"; };
+		DD0429B41550BAE10038B468 /* clChangeBack~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clChangeBack~ipad.png"; sourceTree = "<group>"; };
+		DD0429B51550BAE10038B468 /* clClock_lone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clClock_lone.png; sourceTree = "<group>"; };
+		DD0429B61550BAE10038B468 /* clClock_lone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clClock_lone@2x.png"; sourceTree = "<group>"; };
+		DD0429B71550BAE10038B468 /* clClock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clClock.png; sourceTree = "<group>"; };
+		DD0429B81550BAE10038B468 /* clClock_lone~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clClock_lone~ipad.png"; sourceTree = "<group>"; };
+		DD0429B91550BAE10038B468 /* clClock_lone@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clClock_lone@2x~ipad.png"; sourceTree = "<group>"; };
+		DD0429BA1550BAE10038B468 /* clGear~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clGear~ipad.png"; sourceTree = "<group>"; };
+		DD0429BB1550BAE10038B468 /* clShortArm~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clShortArm~ipad.png"; sourceTree = "<group>"; };
+		DD0429BC1550BAE10038B468 /* clShortArm@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clShortArm@2x~ipad.png"; sourceTree = "<group>"; };
+		DD0429BD1550BAE10038B468 /* clShortArm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clShortArm.png; sourceTree = "<group>"; };
+		DD0429BE1550BAE10038B468 /* clShortArm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clShortArm@2x.png"; sourceTree = "<group>"; };
+		DD0429BF1550BAE10038B468 /* clSecond~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clSecond~ipad.png"; sourceTree = "<group>"; };
+		DD0429C01550BAE10038B468 /* clSecond@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clSecond@2x.png"; sourceTree = "<group>"; };
+		DD0429C11550BAE10038B468 /* clSecond@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clSecond@2x~ipad.png"; sourceTree = "<group>"; };
+		DD0429C21550BAE10038B468 /* clLongArm~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clLongArm~ipad.png"; sourceTree = "<group>"; };
+		DD0429C31550BAE10038B468 /* clSecond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clSecond.png; sourceTree = "<group>"; };
+		DD0429C41550BAE10038B468 /* clLongArm@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clLongArm@2x~ipad.png"; sourceTree = "<group>"; };
+		DD0429C51550BAE10038B468 /* clLongArm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clLongArm.png; sourceTree = "<group>"; };
+		DD0429C61550BAE10038B468 /* clLongArm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clLongArm@2x.png"; sourceTree = "<group>"; };
+		DD0429C71550BAE10038B468 /* clLightDark@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clLightDark@2x~ipad.png"; sourceTree = "<group>"; };
+		DD0429C81550BAE10038B468 /* clLightDark~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clLightDark~ipad.png"; sourceTree = "<group>"; };
+		DD0429C91550BAE10038B468 /* clLightDark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clLightDark@2x.png"; sourceTree = "<group>"; };
+		DD0429CA1550BAE10038B468 /* clLightDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clLightDark.png; sourceTree = "<group>"; };
+		DD042A001550BCE30038B468 /* ClockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockVC.h; sourceTree = "<group>"; };
+		DD042A011550BCE30038B468 /* ClockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockVC.m; sourceTree = "<group>"; };
+		DDCB402E1550C164000105C1 /* ImageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageControl.h; sourceTree = "<group>"; };
+		DDCB402F1550C164000105C1 /* ImageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageControl.m; sourceTree = "<group>"; };
+		DDCB40321550C174000105C1 /* ClockControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockControl.h; sourceTree = "<group>"; };
+		DDCB40331550C174000105C1 /* ClockControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockControl.m; sourceTree = "<group>"; };
+		DDCB40351550C19B000105C1 /* ClockRotationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockRotationProtocol.h; sourceTree = "<group>"; };
+		DDCB40361550CC3A000105C1 /* optionsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = optionsVC.h; sourceTree = "<group>"; };
+		DDCB40371550CC3A000105C1 /* optionsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = optionsVC.m; sourceTree = "<group>"; };
+		DDCB40391550CC4C000105C1 /* BacgoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BacgoundVC.h; path = ../BacgoundVC.h; sourceTree = "<group>"; };
+		DDCB403A1550CC4C000105C1 /* BacgoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BacgoundVC.m; path = ../BacgoundVC.m; sourceTree = "<group>"; };
+		DDCB403C1550CC64000105C1 /* AlarmVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmVC.h; sourceTree = "<group>"; };
+		DDCB403D1550CC64000105C1 /* AlarmVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmVC.m; sourceTree = "<group>"; };
+		DDCB403F1550CC7C000105C1 /* ClockColorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockColorVC.h; sourceTree = "<group>"; };
+		DDCB40401550CC7C000105C1 /* ClockColorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockColorVC.m; sourceTree = "<group>"; };
+		DDCB4042155149ED000105C1 /* MasterClockManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterClockManager.h; sourceTree = "<group>"; };
+		DDCB4043155149ED000105C1 /* MasterClockManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterClockManager.m; sourceTree = "<group>"; };
+		DDCB4049155235C3000105C1 /* back_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_07.png; sourceTree = "<group>"; };
+		DDCB404A155235C3000105C1 /* back_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_06.png; sourceTree = "<group>"; };
+		DDCB404B155235C3000105C1 /* back_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_05.png; sourceTree = "<group>"; };
+		DDCB404C155235C3000105C1 /* back_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_04.png; sourceTree = "<group>"; };
+		DDCB404D155235C3000105C1 /* back_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_03.png; sourceTree = "<group>"; };
+		DDCB404E155235C3000105C1 /* back_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_02.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD04296D1550BA7E0038B468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0429751550BA7E0038B468 /* UIKit.framework in Frameworks */,
+				DD0429771550BA7E0038B468 /* Foundation.framework in Frameworks */,
+				DD0429791550BA7E0038B468 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD0429651550BA7E0038B468 = {
+			isa = PBXGroup;
+			children = (
+				DD04297A1550BA7E0038B468 /* Morning Light */,
+				DD0429731550BA7E0038B468 /* Frameworks */,
+				DD0429711550BA7E0038B468 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD0429711550BA7E0038B468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD0429701550BA7E0038B468 /* Morning Light.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD0429731550BA7E0038B468 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD0429741550BA7E0038B468 /* UIKit.framework */,
+				DD0429761550BA7E0038B468 /* Foundation.framework */,
+				DD0429781550BA7E0038B468 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD04297A1550BA7E0038B468 /* Morning Light */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB4049155235C3000105C1 /* back_07.png */,
+				DDCB404A155235C3000105C1 /* back_06.png */,
+				DDCB404B155235C3000105C1 /* back_05.png */,
+				DDCB404C155235C3000105C1 /* back_04.png */,
+				DDCB404D155235C3000105C1 /* back_03.png */,
+				DDCB404E155235C3000105C1 /* back_02.png */,
+				DD0429FF1550BAE50038B468 /* Images */,
+				DD0429831550BA7E0038B468 /* AppDelegate.h */,
+				DD0429841550BA7E0038B468 /* AppDelegate.m */,
+				DDCB402E1550C164000105C1 /* ImageControl.h */,
+				DDCB402F1550C164000105C1 /* ImageControl.m */,
+				DD0429861550BA7E0038B468 /* MainStoryboard_iPhone.storyboard */,
+				DD0429891550BA7E0038B468 /* MainStoryboard_iPad.storyboard */,
+				DD042A001550BCE30038B468 /* ClockVC.h */,
+				DD042A011550BCE30038B468 /* ClockVC.m */,
+				DDCB40391550CC4C000105C1 /* BacgoundVC.h */,
+				DDCB403A1550CC4C000105C1 /* BacgoundVC.m */,
+				DDCB40361550CC3A000105C1 /* optionsVC.h */,
+				DDCB40371550CC3A000105C1 /* optionsVC.m */,
+				DDCB403C1550CC64000105C1 /* AlarmVC.h */,
+				DDCB403D1550CC64000105C1 /* AlarmVC.m */,
+				DDCB403F1550CC7C000105C1 /* ClockColorVC.h */,
+				DDCB40401550CC7C000105C1 /* ClockColorVC.m */,
+				DDCB40351550C19B000105C1 /* ClockRotationProtocol.h */,
+				DD04298C1550BA7E0038B468 /* ViewController.h */,
+				DD04298D1550BA7E0038B468 /* ViewController.m */,
+				DDCB40321550C174000105C1 /* ClockControl.h */,
+				DDCB40331550C174000105C1 /* ClockControl.m */,
+				DDCB4042155149ED000105C1 /* MasterClockManager.h */,
+				DDCB4043155149ED000105C1 /* MasterClockManager.m */,
+				DD04297B1550BA7E0038B468 /* Supporting Files */,
+			);
+			path = "Morning Light";
+			sourceTree = "<group>";
+		};
+		DD04297B1550BA7E0038B468 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD04297C1550BA7E0038B468 /* Morning Light-Info.plist */,
+				DD04297D1550BA7E0038B468 /* InfoPlist.strings */,
+				DD0429801550BA7E0038B468 /* main.m */,
+				DD0429821550BA7E0038B468 /* Morning Light-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD0429FF1550BAE50038B468 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DD0429971550BAE10038B468 /* clClockThin@2x~ipad.png */,
+				DD0429981550BAE10038B468 /* clLongArmThin@2x~ipad.png */,
+				DD0429991550BAE10038B468 /* clSecondThin@2x~ipad.png */,
+				DD04299A1550BAE10038B468 /* clShortArmThin@2x~ipad.png */,
+				DD04299B1550BAE10038B468 /* clClockThin~ipad.png */,
+				DD04299C1550BAE10038B468 /* clLongArmThin~ipad.png */,
+				DD04299D1550BAE10038B468 /* clSecondThin~ipad.png */,
+				DD04299E1550BAE10038B468 /* clShortArmThin~ipad.png */,
+				DD04299F1550BAE10038B468 /* clClockThin@2x.png */,
+				DD0429A01550BAE10038B468 /* clLongArmThin@2x.png */,
+				DD0429A11550BAE10038B468 /* clSecondThin@2x.png */,
+				DD0429A21550BAE10038B468 /* clShortArmThin@2x.png */,
+				DD0429A31550BAE10038B468 /* clSecondThin.png */,
+				DD0429A41550BAE10038B468 /* clShortArmThin.png */,
+				DD0429A51550BAE10038B468 /* clClockThin.png */,
+				DD0429A61550BAE10038B468 /* clLongArmThin.png */,
+				DD0429A71550BAE10038B468 /* clGear@2x~ipad.png */,
+				DD0429A81550BAE10038B468 /* clGear@2x.png */,
+				DD0429A91550BAE10038B468 /* clClock~ipad.png */,
+				DD0429AA1550BAE10038B468 /* clGear.png */,
+				DD0429AB1550BAE10038B468 /* clClock@2x~ipad.png */,
+				DD0429AC1550BAE10038B468 /* clClock@2x.png */,
+				DD0429AD1550BAE10038B468 /* clAlarm.png */,
+				DD0429AE1550BAE10038B468 /* clAlarm@2x.png */,
+				DD0429AF1550BAE10038B468 /* clAlarm@2x~ipad.png */,
+				DD0429B01550BAE10038B468 /* clAlarm~ipad.png */,
+				DD0429B11550BAE10038B468 /* clChangeBack.png */,
+				DD0429B21550BAE10038B468 /* clChangeBack@2x.png */,
+				DD0429B31550BAE10038B468 /* clChangeBack@2x~ipad.png */,
+				DD0429B41550BAE10038B468 /* clChangeBack~ipad.png */,
+				DD0429B51550BAE10038B468 /* clClock_lone.png */,
+				DD0429B61550BAE10038B468 /* clClock_lone@2x.png */,
+				DD0429B71550BAE10038B468 /* clClock.png */,
+				DD0429B81550BAE10038B468 /* clClock_lone~ipad.png */,
+				DD0429B91550BAE10038B468 /* clClock_lone@2x~ipad.png */,
+				DD0429BA1550BAE10038B468 /* clGear~ipad.png */,
+				DD0429BB1550BAE10038B468 /* clShortArm~ipad.png */,
+				DD0429BC1550BAE10038B468 /* clShortArm@2x~ipad.png */,
+				DD0429BD1550BAE10038B468 /* clShortArm.png */,
+				DD0429BE1550BAE10038B468 /* clShortArm@2x.png */,
+				DD0429BF1550BAE10038B468 /* clSecond~ipad.png */,
+				DD0429C01550BAE10038B468 /* clSecond@2x.png */,
+				DD0429C11550BAE10038B468 /* clSecond@2x~ipad.png */,
+				DD0429C21550BAE10038B468 /* clLongArm~ipad.png */,
+				DD0429C31550BAE10038B468 /* clSecond.png */,
+				DD0429C41550BAE10038B468 /* clLongArm@2x~ipad.png */,
+				DD0429C51550BAE10038B468 /* clLongArm.png */,
+				DD0429C61550BAE10038B468 /* clLongArm@2x.png */,
+				DD0429C71550BAE10038B468 /* clLightDark@2x~ipad.png */,
+				DD0429C81550BAE10038B468 /* clLightDark~ipad.png */,
+				DD0429C91550BAE10038B468 /* clLightDark@2x.png */,
+				DD0429CA1550BAE10038B468 /* clLightDark.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD04296F1550BA7E0038B468 /* Morning Light */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0429911550BA7E0038B468 /* Build configuration list for PBXNativeTarget "Morning Light" */;
+			buildPhases = (
+				DD04296C1550BA7E0038B468 /* Sources */,
+				DD04296D1550BA7E0038B468 /* Frameworks */,
+				DD04296E1550BA7E0038B468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Morning Light";
+			productName = "Morning Light";
+			productReference = DD0429701550BA7E0038B468 /* Morning Light.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD0429671550BA7E0038B468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = OcasoStudios;
+			};
+			buildConfigurationList = DD04296A1550BA7E0038B468 /* Build configuration list for PBXProject "Morning Light" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD0429651550BA7E0038B468;
+			productRefGroup = DD0429711550BA7E0038B468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD04296F1550BA7E0038B468 /* Morning Light */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD04296E1550BA7E0038B468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD04297F1550BA7E0038B468 /* InfoPlist.strings in Resources */,
+				DD0429881550BA7E0038B468 /* MainStoryboard_iPhone.storyboard in Resources */,
+				DD04298B1550BA7E0038B468 /* MainStoryboard_iPad.storyboard in Resources */,
+				DD0429CB1550BAE10038B468 /* clClockThin@2x~ipad.png in Resources */,
+				DD0429CC1550BAE10038B468 /* clLongArmThin@2x~ipad.png in Resources */,
+				DD0429CD1550BAE10038B468 /* clSecondThin@2x~ipad.png in Resources */,
+				DD0429CE1550BAE10038B468 /* clShortArmThin@2x~ipad.png in Resources */,
+				DD0429CF1550BAE20038B468 /* clClockThin~ipad.png in Resources */,
+				DD0429D01550BAE20038B468 /* clLongArmThin~ipad.png in Resources */,
+				DD0429D11550BAE20038B468 /* clSecondThin~ipad.png in Resources */,
+				DD0429D21550BAE20038B468 /* clShortArmThin~ipad.png in Resources */,
+				DD0429D31550BAE20038B468 /* clClockThin@2x.png in Resources */,
+				DD0429D41550BAE20038B468 /* clLongArmThin@2x.png in Resources */,
+				DD0429D51550BAE20038B468 /* clSecondThin@2x.png in Resources */,
+				DD0429D61550BAE20038B468 /* clShortArmThin@2x.png in Resources */,
+				DD0429D71550BAE20038B468 /* clSecondThin.png in Resources */,
+				DD0429D81550BAE20038B468 /* clShortArmThin.png in Resources */,
+				DD0429D91550BAE20038B468 /* clClockThin.png in Resources */,
+				DD0429DA1550BAE20038B468 /* clLongArmThin.png in Resources */,
+				DD0429DB1550BAE20038B468 /* clGear@2x~ipad.png in Resources */,
+				DD0429DC1550BAE20038B468 /* clGear@2x.png in Resources */,
+				DD0429DD1550BAE20038B468 /* clClock~ipad.png in Resources */,
+				DD0429DE1550BAE20038B468 /* clGear.png in Resources */,
+				DD0429DF1550BAE20038B468 /* clClock@2x~ipad.png in Resources */,
+				DD0429E01550BAE20038B468 /* clClock@2x.png in Resources */,
+				DD0429E11550BAE20038B468 /* clAlarm.png in Resources */,
+				DD0429E21550BAE20038B468 /* clAlarm@2x.png in Resources */,
+				DD0429E31550BAE20038B468 /* clAlarm@2x~ipad.png in Resources */,
+				DD0429E41550BAE20038B468 /* clAlarm~ipad.png in Resources */,
+				DD0429E51550BAE20038B468 /* clChangeBack.png in Resources */,
+				DD0429E61550BAE20038B468 /* clChangeBack@2x.png in Resources */,
+				DD0429E71550BAE20038B468 /* clChangeBack@2x~ipad.png in Resources */,
+				DD0429E81550BAE20038B468 /* clChangeBack~ipad.png in Resources */,
+				DD0429E91550BAE20038B468 /* clClock_lone.png in Resources */,
+				DD0429EA1550BAE20038B468 /* clClock_lone@2x.png in Resources */,
+				DD0429EB1550BAE20038B468 /* clClock.png in Resources */,
+				DD0429EC1550BAE20038B468 /* clClock_lone~ipad.png in Resources */,
+				DD0429ED1550BAE20038B468 /* clClock_lone@2x~ipad.png in Resources */,
+				DD0429EE1550BAE20038B468 /* clGear~ipad.png in Resources */,
+				DD0429EF1550BAE20038B468 /* clShortArm~ipad.png in Resources */,
+				DD0429F01550BAE20038B468 /* clShortArm@2x~ipad.png in Resources */,
+				DD0429F11550BAE20038B468 /* clShortArm.png in Resources */,
+				DD0429F21550BAE20038B468 /* clShortArm@2x.png in Resources */,
+				DD0429F31550BAE20038B468 /* clSecond~ipad.png in Resources */,
+				DD0429F41550BAE20038B468 /* clSecond@2x.png in Resources */,
+				DD0429F51550BAE20038B468 /* clSecond@2x~ipad.png in Resources */,
+				DD0429F61550BAE20038B468 /* clLongArm~ipad.png in Resources */,
+				DD0429F71550BAE20038B468 /* clSecond.png in Resources */,
+				DD0429F81550BAE20038B468 /* clLongArm@2x~ipad.png in Resources */,
+				DD0429F91550BAE20038B468 /* clLongArm.png in Resources */,
+				DD0429FA1550BAE20038B468 /* clLongArm@2x.png in Resources */,
+				DD0429FB1550BAE20038B468 /* clLightDark@2x~ipad.png in Resources */,
+				DD0429FC1550BAE20038B468 /* clLightDark~ipad.png in Resources */,
+				DD0429FD1550BAE20038B468 /* clLightDark@2x.png in Resources */,
+				DD0429FE1550BAE20038B468 /* clLightDark.png in Resources */,
+				DDCB404F155235C3000105C1 /* back_07.png in Resources */,
+				DDCB4050155235C3000105C1 /* back_06.png in Resources */,
+				DDCB4051155235C3000105C1 /* back_05.png in Resources */,
+				DDCB4052155235C3000105C1 /* back_04.png in Resources */,
+				DDCB4053155235C3000105C1 /* back_03.png in Resources */,
+				DDCB4054155235C3000105C1 /* back_02.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD04296C1550BA7E0038B468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0429811550BA7E0038B468 /* main.m in Sources */,
+				DD0429851550BA7E0038B468 /* AppDelegate.m in Sources */,
+				DD04298E1550BA7E0038B468 /* ViewController.m in Sources */,
+				DD042A021550BCE30038B468 /* ClockVC.m in Sources */,
+				DDCB40301550C164000105C1 /* ImageControl.m in Sources */,
+				DDCB40341550C174000105C1 /* ClockControl.m in Sources */,
+				DDCB40381550CC3A000105C1 /* optionsVC.m in Sources */,
+				DDCB403B1550CC4C000105C1 /* BacgoundVC.m in Sources */,
+				DDCB403E1550CC64000105C1 /* AlarmVC.m in Sources */,
+				DDCB40411550CC7C000105C1 /* ClockColorVC.m in Sources */,
+				DDCB4044155149ED000105C1 /* MasterClockManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD04297D1550BA7E0038B468 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD04297E1550BA7E0038B468 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD0429861550BA7E0038B468 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0429871550BA7E0038B468 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DD0429891550BA7E0038B468 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD04298A1550BA7E0038B468 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD04298F1550BA7E0038B468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD0429901550BA7E0038B468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD0429921550BA7E0038B468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Morning Light/Morning Light-Prefix.pch";
+				INFOPLIST_FILE = "Morning Light/Morning Light-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD0429931550BA7E0038B468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Morning Light/Morning Light-Prefix.pch";
+				INFOPLIST_FILE = "Morning Light/Morning Light-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD04296A1550BA7E0038B468 /* Build configuration list for PBXProject "Morning Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD04298F1550BA7E0038B468 /* Debug */,
+				DD0429901550BA7E0038B468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0429911550BA7E0038B468 /* Build configuration list for PBXNativeTarget "Morning Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0429921550BA7E0038B468 /* Debug */,
+				DD0429931550BA7E0038B468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD0429671550BA7E0038B468 /* Project object */;
+}
